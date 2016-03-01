@@ -3,7 +3,7 @@ package go_koans
 func aboutChannels() {
 	ch := make(chan string, 2)
 
-	assert(len(ch) == __int__) // channels are like buffers
+	assert(len(ch) == 0) // channels are like buffers
 
 	ch <- "foo" // i mean, "metaphors are like similes"
 

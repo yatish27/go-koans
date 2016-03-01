@@ -18,7 +18,7 @@ func aboutStructs() {
 
 	var john person
 	john.name = "bob"
-	john.age = __int__
+	john.age = 30
 
 	assert(bob == john) // assuredly, bob is certainly not john.. yet
 }
